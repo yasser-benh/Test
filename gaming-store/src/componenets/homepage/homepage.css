@@ -1,0 +1,97 @@
+section {
+    width: 100%;
+}
+.top-section {
+    display: flex;
+    margin: 3rem;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.article-top-section {
+    width: 30%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 1px lightgray;
+    border-radius: 10px;
+}
+
+.img-top-section{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 90%;
+    height: 100%;
+    background: url('../imgs/ps5-30th-sony.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: glitch 3s infinite steps(1);
+    animation-delay: 1s;
+   
+}
+
+@keyframes glitch {
+    0% , 100% {
+        background: url('../imgs/ps5-30th-sony.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    50.5% {
+        background: url('../imgs/glitch-image-2.png');
+        background-size: contain;
+        
+    }
+    55% {
+        background: url('../imgs/ps5-30th-sony.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    95% {
+        background: url('../imgs/glitch-image-1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+        opacity: 0;
+    }
+
+    97.5% {
+        background: url('../imgs/glitch-image-3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        transform: scale(1.1);
+        opacity: 1;
+    }
+
+}
+.top-section-description-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.article-top-section h2 {
+    color: rgb(255, 225, 0);
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.description {
+    display: flex;
+    margin-top: -2rem;
+    width: 100%;
+    justify-content: space-around;    
+    font-size: 1.2rem;
+}
+.consoles-container {
+    display: flex;
+   
+
+}

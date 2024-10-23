@@ -1,0 +1,16 @@
+.btns-navbar {
+    width: 90%;
+    height: 50%;
+    border: transparent;
+    background-color: white;
+    box-shadow: 0px 0px 4px 1px lightgray;
+    border-radius: 4px;
+    font-size: 1.1rem;
+
+}
+.btns-navbar-dropdown { 
+    background-color: red;
+    width: 80%;
+    height: 2rem;
+    
+}
